@@ -22,14 +22,6 @@
                                 <frame key="frameInset" minX="30" minY="186" width="315" height="120"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WQB-TT-k9s">
-                                <frame key="frameInset" minX="152" minY="416" width="70" height="70"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" backgroundImage="logoBtn.jpg"/>
-                                <connections>
-                                    <action selector="startPush:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wUZ-u2-5e7"/>
-                                </connections>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Học là có việc" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7VS-IN-2D3">
                                 <frame key="frameInset" minX="88" minY="327" width="198" height="66"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -42,7 +34,6 @@
                     </view>
                     <navigationItem key="navigationItem" id="yty-ih-Sux"/>
                     <connections>
-                        <outlet property="lbl_start" destination="WQB-TT-k9s" id="N9z-hp-eJi"/>
                         <outlet property="lbl_text" destination="7VS-IN-2D3" id="4Mg-BJ-zWY"/>
                         <outlet property="logo_img" destination="bf6-Fx-lWw" id="smM-P5-D99"/>
                     </connections>
@@ -308,7 +299,6 @@
         <image name="cloud.png" width="251" height="201"/>
         <image name="icon-user-default.png" width="462" height="462"/>
         <image name="logo-to-share.png" width="649" height="203"/>
-        <image name="logoBtn.jpg" width="240" height="240"/>
         <image name="open-lock-icon.png" width="512" height="512"/>
         <image name="square-xxl.png" width="256" height="256"/>
         <image name="square.jpeg" width="225" height="225"/>
